@@ -6,7 +6,7 @@ import axios from 'axios';
 import Card from 'react-bootstrap/Card';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { addtoCart } from '../cartSlice';
+import { addtoCart } from '../CartSlice.js';
 
 const Home = () => {
   const [apiData, setApiData] = useState([]);

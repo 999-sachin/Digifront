@@ -9,7 +9,7 @@ import { useDispatch } from "react-redux";
 import { FaRupeeSign } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
-import { addtoCart } from "../cartSlice";
+import { addtoCart } from "../CartSlice.js";
 const TV = () => {
     const [apiData, setApiData] = useState([]);
     const dispatch = useDispatch();

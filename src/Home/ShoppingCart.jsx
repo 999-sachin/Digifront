@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import { MdDelete } from "react-icons/md";
 import { HiDocumentCurrencyRupee } from "react-icons/hi2";
 import { FaPlusSquare, FaMinusSquare } from "react-icons/fa";
-import { qntyIncrease, qntyDecrease, productRemove } from "../cartSlice";
+import { qntyIncrease, qntyDecrease, productRemove } from "../CartSlice.js";
 
 const ShoppingCart = () => {
   const products = useSelector((state) => state.mycart.cart);
